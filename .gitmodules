@@ -4,3 +4,6 @@
 [submodule "div.homes/hello-world"]
 	path = div.homes/hello-world
 	url = git@divopsor:divopsor/div.homes-hello-world.git
+[submodule "div.homes/books"]
+	path = div.homes/books
+	url = git@divopsor:divopsor/div.homes-books.git
