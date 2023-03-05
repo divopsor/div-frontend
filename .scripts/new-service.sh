@@ -22,6 +22,13 @@ printf "서비스 이름을 입력하세요 (e.g. hello-world) >>> "
 
 read serviceName
 
+if gh auth status | greq -q "divopsor"; then
+  echo "✅ 환영합니다, divopsor 님"
+else
+  echo "✅ divopsor로 로그인해주세요."
+  exit 1
+fi
+
 if gh repo list | grep -q "$user/$domain-$serviceName"; then
   echo "✅ REPO가 이미 존재합니다."
 else
@@ -105,6 +112,7 @@ case $domain in "app.divops.kr")
   ;;
 "div.homes")
 
+  gh secret set
   echo "✅ .github 을 설정하세요"
   break
   ;;
