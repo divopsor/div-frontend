@@ -51,8 +51,6 @@ git remote remove $serviceName || exit 1
 
 cd -
 
-echo "???????"
-
 git submodule add git@$gitdomain:$user/$domain-$serviceName.git ./$domain/$serviceName || exit 1
 
 echo "✅ REPO clone 완료"
@@ -86,6 +84,10 @@ yarn || exit 1
 
 yarn prepare || exit 1
 
+git config --local user.email "divopsor@gmail.com"
+
+git config --local user.name "divopsor"
+
 git add -A || exit 1
 
 git commit -m "initial commit [skip vercel] [skip ci]" || exit 1
@@ -97,6 +99,10 @@ echo "✅ REPO initial 완료"
 cd -
 
 yarn || exit 1
+
+git config --local user.email "divopsor@gmail.com"
+
+git config --local user.name "divopsor"
 
 git add -A
 
@@ -119,7 +125,7 @@ case $domain in "app.divops.kr")
   ;;
 "div.homes")
 
-  gh secret set PAT --body $CRECO_STORAGE_PAT
+  gh secret set CRECO_STORAGE --body $CRECO_STORAGE_PAT
   echo "✅ .github 을 설정하세요"
   break
   ;;
