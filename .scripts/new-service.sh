@@ -18,16 +18,21 @@ select domain in "${domains[@]}"; do
   esac
 done
 
-printf "서비스 이름을 입력하세요 (e.g. hello-world) >>> "
-
-read serviceName
-
 if gh auth status 2>&1 | grep -q "divopsor"; then
   echo "✅ 환영합니다, divopsor 님"
 else
   echo "❌ divopsor로 로그인해주세요."
   exit 1
 fi
+
+if [ -z "$CRECO_STORAGE_PAT" ]; then
+  echo "CRECO_STORAGE_PAT is empty"
+  exit 1
+fi
+
+printf "서비스 이름을 입력하세요 (e.g. hello-world) >>> "
+
+read serviceName
 
 if gh repo list | grep -q "$user/$domain-$serviceName"; then
   echo "✅ REPO가 이미 존재합니다."
