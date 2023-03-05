@@ -1,4 +1,3 @@
-printf "도메인을 선택해주세요!\n"
 user=divopsor
 gitdomain=divopsor
 domains=(
@@ -22,6 +21,8 @@ if [ -z "$PAT" ]; then
   echo "PAT is empty"
   exit 1
 fi
+
+printf "도메인을 선택해주세요!\n"
 
 select domain in "${domains[@]}"; do
   case $domain in "app.divops.kr" | "div.homes")
