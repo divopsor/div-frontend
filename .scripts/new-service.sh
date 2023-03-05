@@ -1,6 +1,6 @@
 printf "도메인을 선택해주세요!\n"
 user=divopsor
-gitdomain=divopsgit
+gitdomain=divopsor
 domains=(
   "app.divops.kr"
   "div.homes"
@@ -71,7 +71,7 @@ yarn prepare || exit 1
 
 git add -A || exit 1
 
-git commit -m "initial commit" || exit 1
+git commit -m "initial commit [skip vercel] [skip ci]" || exit 1
 
 git push origin main -f || exit 1
 
