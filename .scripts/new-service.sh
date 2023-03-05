@@ -22,10 +22,10 @@ printf "서비스 이름을 입력하세요 (e.g. hello-world) >>> "
 
 read serviceName
 
-if gh auth status | grep -q "divopsor"; then
+if gh auth status 2>&1 | grep -q "divopsor"; then
   echo "✅ 환영합니다, divopsor 님"
 else
-  echo "✅ divopsor로 로그인해주세요."
+  echo "❌ divopsor로 로그인해주세요."
   exit 1
 fi
 
