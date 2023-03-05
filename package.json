@@ -6,6 +6,7 @@
     "div.homes/*"
   ],
   "scripts": {
+    "new": "./.scripts/new-service.sh",
     "new-service": "./.scripts/new-service.sh",
     "reset-submodules": "./.scripts/reset-submodules.sh"
   },
