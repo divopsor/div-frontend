@@ -1,6 +1,3 @@
 [submodule "shared"]
 	path = shared
 	url = git@divopsor:divopsor/div-frontend-shared.git
-[submodule "div.homes/books"]
-	path = div.homes/books
-	url = git@divopsor:divopsor/div.homes-books.git
