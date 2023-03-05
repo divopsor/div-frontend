@@ -57,7 +57,7 @@ git remote remove $serviceName || exit 1
 
 cd -
 
-git submodule add git@$gitdomain:$user/$domain-$serviceName.git ./$domain/$serviceName || exit 1
+git submodule add git@github.com:$user/$domain-$serviceName.git ./$domain/$serviceName || exit 1
 
 echo "✅ REPO clone 완료"
 
