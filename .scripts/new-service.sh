@@ -30,6 +30,11 @@ if [ -z "$CRECO_STORAGE_PAT" ]; then
   exit 1
 fi
 
+if [ -z "$PAT" ]; then
+  echo "PAT is empty"
+  exit 1
+fi
+
 printf "서비스 이름을 입력하세요 (e.g. hello-world) >>> "
 
 read serviceName
@@ -125,6 +130,7 @@ case $domain in "app.divops.kr")
   ;;
 "div.homes")
 
+  gh secret set PAT --body $PAT
   gh secret set CRECO_STORAGE --body $CRECO_STORAGE_PAT
   echo "✅ .github 을 설정하세요"
   break
