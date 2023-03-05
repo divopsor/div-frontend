@@ -6,18 +6,6 @@ domains=(
   "div.homes"
 )
 
-select domain in "${domains[@]}"; do
-  case $domain in "app.divops.kr" | "div.homes")
-    echo "$domain 을 선택했습니다."
-    break
-    ;;
-  *)
-    echo "1 혹은 2를 입력해주세요."
-    exit 1
-    ;;
-  esac
-done
-
 if gh auth status 2>&1 | grep -q "divopsor"; then
   echo "✅ 환영합니다, divopsor 님"
 else
@@ -34,6 +22,18 @@ if [ -z "$PAT" ]; then
   echo "PAT is empty"
   exit 1
 fi
+
+select domain in "${domains[@]}"; do
+  case $domain in "app.divops.kr" | "div.homes")
+    echo "$domain 을 선택했습니다."
+    break
+    ;;
+  *)
+    echo "1 혹은 2를 입력해주세요."
+    exit 1
+    ;;
+  esac
+done
 
 printf "서비스 이름을 입력하세요 (e.g. hello-world) >>> "
 
