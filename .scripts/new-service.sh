@@ -100,6 +100,9 @@ git commit -m "initial commit [skip vercel] [skip ci]" || exit 1
 
 git push origin main -f || exit 1
 
+gh secret set PAT --body $PAT
+gh secret set CRECO_STORAGE --body $CRECO_STORAGE_PAT
+
 echo "✅ REPO initial 완료"
 
 cd -
@@ -131,8 +134,6 @@ case $domain in "app.divops.kr")
   ;;
 "div.homes")
 
-  gh secret set PAT --body $PAT
-  gh secret set CRECO_STORAGE --body $CRECO_STORAGE_PAT
   echo "✅ .github 을 설정하세요"
   break
   ;;
