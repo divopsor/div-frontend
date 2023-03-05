@@ -22,9 +22,12 @@ printf "서비스 이름을 입력하세요 (e.g. hello-world) >>> "
 
 read serviceName
 
-gh repo create --public --add-readme $user/$domain-$serviceName || exit 1
-
-echo "✅ REPO create 완료"
+if gh repo list | grep -q "$user/$domain-$serviceName"; then
+  echo "✅ REPO가 이미 존재합니다."
+else
+  gh repo create --public --add-readme $user/$domain-$serviceName || exit 1
+  echo "✅ REPO create 완료"
+fi
 
 cd div.homes/hello-world || exit 1
 
