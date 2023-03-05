@@ -1,4 +1,0 @@
-[submodule "shared"]
-	path = shared
-	url = git@github.com:divopsor/div-frontend-shared.git
-	branch = main
