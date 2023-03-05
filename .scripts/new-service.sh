@@ -114,7 +114,7 @@ case $domain in "app.divops.kr")
   ;;
 "div.homes")
 
-  gh secret set
+  gh secret set PAT --body $CRECO_STORAGE_PAT
   echo "✅ .github 을 설정하세요"
   break
   ;;
