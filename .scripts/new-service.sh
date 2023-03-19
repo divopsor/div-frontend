@@ -83,6 +83,7 @@ echo "✅ REPO commits 리셋 완료"
 
 case $domain in "div.homes")
   cp ../../.template/deploy-$domain.yml ./.github/workflows/deploy.yml
+  ../../.scripts/replace.sh ./.github/workflows/deploy.yml "[service]" $serviceName || exit 1
   ;;
 esac
 

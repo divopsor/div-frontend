@@ -30,8 +30,8 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          rm -rf ./div.homes/github-editor
-          mv ../out ./div.homes/github-editor
+          rm -rf ./div.homes/[service]
+          mv ../out ./div.homes/[service]
           git add -A
           git -c core.hookspath=/dev/null commit -m "${{ github.event.head_commit.message }}"
           git push origin HEAD
