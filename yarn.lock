@@ -251,6 +251,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@divops/component-footer@npm:^0.0.7":
+  version: 0.0.7
+  resolution: "@divops/component-footer@npm:0.0.7"
+  peerDependencies:
+    "@emotion/react": "*"
+    react: "*"
+    react-dom: "*"
+  checksum: ec3ca03b697d820504d21a8302e68e961e053885c52abd19e84ad9f73da60b0448440e4c715e777b6bd2a1ad01e1c2874b422ddbe58e6bba3cadab38b6e3c0a1
+  languageName: node
+  linkType: hard
+
+"@divops/github-oauth-sdk@npm:^0.0.24":
+  version: 0.0.24
+  resolution: "@divops/github-oauth-sdk@npm:0.0.24"
+  peerDependencies:
+    next: ">=12"
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: af9bd144b629680a001927a0c6f8a29963e3f1b3140bdc208b4aa038089998a429a556742cf1204082b286841c219abe1b2315d01e2df3d5174337d2ed7419a8
+  languageName: node
+  linkType: hard
+
 "@divopsor/div.homes-books@workspace:div.homes/books":
   version: 0.0.0-use.local
   resolution: "@divopsor/div.homes-books@workspace:div.homes/books"
@@ -282,9 +304,12 @@ __metadata:
   resolution: "@divopsor/div.homes-gtd@workspace:div.homes/gtd"
   dependencies:
     "@babel/core": ^7.19.1
+    "@divops/component-footer": ^0.0.7
+    "@divops/github-oauth-sdk": ^0.0.24
     "@divopsor/frontend-configs-cli": "workspace:^"
     "@emotion/babel-plugin": ^11.10.2
     "@emotion/react": ^11.10.4
+    "@tanstack/react-query": ^4.27.0
     "@types/babel__core": ^7
     "@types/eslint": ^8
     "@types/node": 18.7.18
@@ -705,6 +730,32 @@ __metadata:
   dependencies:
     tslib: ^2.4.0
   checksum: 736857d524b41a8a4db81094e9b027f554004e0fa3e86325d85bdb38f7e6459ce022db079edb6c61ba0f46fe8583b3e663e95f7acbd13e51b8da6c34e45bba2e
+  languageName: node
+  linkType: hard
+
+"@tanstack/query-core@npm:4.27.0":
+  version: 4.27.0
+  resolution: "@tanstack/query-core@npm:4.27.0"
+  checksum: 914b4f01ac75632f4603b650e9105f64c739b79250baf76aad16cee216f7bad6060c04eda0c70838fe61a5f6c17883e19fcc3075b2433a906539da95ce785796
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^4.27.0":
+  version: 4.27.0
+  resolution: "@tanstack/react-query@npm:4.27.0"
+  dependencies:
+    "@tanstack/query-core": 4.27.0
+    use-sync-external-store: ^1.2.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-native: "*"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+    react-native:
+      optional: true
+  checksum: 15cebe9ccb8df737548763223438ce0c28808e3a9f2434307d2ac966a6bb8da01f172019a5490966503797ccdf2482d1e488f5fe52de5da86dbdae20ef772e8c
   languageName: node
   linkType: hard
 
@@ -3596,7 +3647,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-sync-external-store@npm:1.2.0":
+"use-sync-external-store@npm:1.2.0, use-sync-external-store@npm:^1.2.0":
   version: 1.2.0
   resolution: "use-sync-external-store@npm:1.2.0"
   peerDependencies:
