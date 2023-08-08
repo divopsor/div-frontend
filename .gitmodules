@@ -13,3 +13,6 @@
 [submodule "div.homes/writer"]
 	path = div.homes/writer
 	url = git@divopsor:divopsor/div.homes-writer.git
+[submodule "div.homes/box"]
+	path = div.homes/box
+	url = git@divopsor:divopsor/div.homes-box.git

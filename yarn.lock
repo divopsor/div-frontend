@@ -262,14 +262,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@divops/github-oauth-sdk@npm:^0.0.24":
-  version: 0.0.24
-  resolution: "@divops/github-oauth-sdk@npm:0.0.24"
+"@divops/github-oauth-sdk@npm:^0.0.25":
+  version: 0.0.25
+  resolution: "@divops/github-oauth-sdk@npm:0.0.25"
   peerDependencies:
     next: ">=12"
     react: ">=18"
     react-dom: ">=18"
-  checksum: af9bd144b629680a001927a0c6f8a29963e3f1b3140bdc208b4aa038089998a429a556742cf1204082b286841c219abe1b2315d01e2df3d5174337d2ed7419a8
+  checksum: 483af55d8220a2d9300d5c420006adc5e43a9dd11b51047b0dc7c001de06eddae06d850f9a1d16d49df203cd9f7c5ef10c90f9cd28d2cb984335806791145a51
   languageName: node
   linkType: hard
 
@@ -299,13 +299,39 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@divopsor/div.homes-box@workspace:div.homes/box":
+  version: 0.0.0-use.local
+  resolution: "@divopsor/div.homes-box@workspace:div.homes/box"
+  dependencies:
+    "@babel/core": ^7.19.1
+    "@divopsor/frontend-configs-cli": "workspace:^"
+    "@emotion/babel-plugin": ^11.10.2
+    "@emotion/react": ^11.10.4
+    "@types/babel__core": ^7
+    "@types/eslint": ^8
+    "@types/node": 18.7.18
+    "@types/react": 18.0.21
+    "@types/react-dom": 18.0.6
+    "@typescript-eslint/eslint-plugin": ^5.36.2
+    "@typescript-eslint/parser": ^5.36.2
+    eslint: 8.23.1
+    eslint-config-next: 12.3.1
+    eslint-plugin-import: ^2.26.0
+    husky: ^8.0.1
+    next: 12.3.1
+    react: 18.2.0
+    react-dom: 18.2.0
+    typescript: 4.8.3
+  languageName: unknown
+  linkType: soft
+
 "@divopsor/div.homes-gtd@workspace:div.homes/gtd":
   version: 0.0.0-use.local
   resolution: "@divopsor/div.homes-gtd@workspace:div.homes/gtd"
   dependencies:
     "@babel/core": ^7.19.1
     "@divops/component-footer": ^0.0.7
-    "@divops/github-oauth-sdk": ^0.0.24
+    "@divops/github-oauth-sdk": ^0.0.25
     "@divopsor/frontend-configs-cli": "workspace:^"
     "@emotion/babel-plugin": ^11.10.2
     "@emotion/react": ^11.10.4
