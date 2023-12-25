@@ -3,6 +3,7 @@ gitdomain=divopsor
 domains=(
   "app.divops.kr"
   "div.homes"
+  "blog.creco.dev"
 )
 
 if gh auth status 2>&1 | grep -q "divopsor"; then
@@ -25,7 +26,7 @@ fi
 printf "도메인을 선택해주세요!\n"
 
 select domain in "${domains[@]}"; do
-  case $domain in "app.divops.kr" | "div.homes")
+  case $domain in "app.divops.kr" | "div.homes" | "blog.creco.dev")
     echo "$domain 을 선택했습니다."
     break
     ;;
@@ -134,6 +135,11 @@ case $domain in "app.divops.kr")
   break
   ;;
 "div.homes")
+
+  echo "✅ .github 을 설정하세요"
+  break
+  ;;
+"blog.creco.homes")
 
   echo "✅ .github 을 설정하세요"
   break

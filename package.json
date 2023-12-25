@@ -3,7 +3,8 @@
   "private": true,
   "workspaces": [
     "shared/*",
-    "div.homes/*"
+    "div.homes/*",
+    "blog.creco.dev/*"
   ],
   "scripts": {
     "new": "./.scripts/new-service.sh",
