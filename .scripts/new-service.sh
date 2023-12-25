@@ -9,7 +9,7 @@ domains=(
 if gh auth status 2>&1 | grep -q "divopsor"; then
   echo "✅ 환영합니다, divopsor 님"
 else
-  echo "❌ divopsor로 로그인해주세요."
+  echo "❌ divopsor로 로그인해주세요. (gh auth login)"
   exit 1
 fi
 
