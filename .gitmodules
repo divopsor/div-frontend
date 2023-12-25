@@ -16,3 +16,6 @@
 [submodule "div.homes/box"]
 	path = div.homes/box
 	url = git@divopsor:divopsor/div.homes-box.git
+[submodule "blog.creco.dev/post"]
+	path = blog.creco.dev/post
+	url = git@divopsor:divopsor/blog.creco.dev-post.git
