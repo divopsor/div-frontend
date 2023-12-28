@@ -269,6 +269,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@divops-packages/ui@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@divops-packages/ui@npm:0.4.0"
+  dependencies:
+    eslint: 8.44.0
+    eslint-config-next: 13.4.9
+    react: ^18
+    react-dom: ^18
+    typescript: ^4.9.5
+  checksum: b69b224348fa7b70c975dd4a1b4da0b603696b2e880f28ceaa8c65506b3c04116ee9afa3392feb035bab8278ea24a5c510ce94c2a62a6a1145259f4f3c8a332f
+  languageName: node
+  linkType: hard
+
 "@divops/component-footer@npm:^0.0.7":
   version: 0.0.7
   resolution: "@divops/component-footer@npm:0.0.7"
@@ -296,24 +309,25 @@ __metadata:
   resolution: "@divopsor/blog.creco.dev-post@workspace:blog.creco.dev/post"
   dependencies:
     "@babel/core": ^7.19.1
+    "@divops-packages/ui": ^0.4.0
     "@divopsor/frontend-configs-cli": "workspace:^"
-    "@emotion/babel-plugin": ^11.10.2
-    "@emotion/react": ^11.10.4
+    "@tanstack/react-query": ^4.32.6
     "@types/babel__core": ^7
     "@types/eslint": ^8
-    "@types/node": 18.7.18
-    "@types/react": 18.0.21
-    "@types/react-dom": 18.0.6
+    "@types/node": ^18
+    "@types/react": ^18
+    "@types/react-dom": ^18
     "@typescript-eslint/eslint-plugin": ^5.36.2
     "@typescript-eslint/parser": ^5.36.2
+    axios: ^1.4.0
     eslint: 8.23.1
-    eslint-config-next: 12.3.1
+    eslint-config-next: ^13.4.13
     eslint-plugin-import: ^2.26.0
     husky: ^8.0.1
-    next: 12.3.1
-    react: 18.2.0
-    react-dom: 18.2.0
-    typescript: 4.8.3
+    next: ^13
+    react: ^18
+    react-dom: ^18
+    typescript: ^5
   languageName: unknown
   linkType: soft
 
@@ -323,8 +337,6 @@ __metadata:
   dependencies:
     "@babel/core": ^7.19.1
     "@divopsor/frontend-configs-cli": "workspace:^"
-    "@emotion/babel-plugin": ^11.10.2
-    "@emotion/react": ^11.10.4
     "@types/babel__core": ^7
     "@types/eslint": ^8
     "@types/node": 18.7.18
@@ -350,8 +362,6 @@ __metadata:
     "@babel/core": ^7.19.1
     "@divops-packages/ui": ^0.1.4
     "@divopsor/frontend-configs-cli": "workspace:^"
-    "@emotion/babel-plugin": ^11.10.2
-    "@emotion/react": ^11.10.4
     "@tanstack/react-query": ^4.32.6
     "@types/babel__core": ^7
     "@types/eslint": ^8
@@ -412,8 +422,6 @@ __metadata:
   dependencies:
     "@babel/core": ^7.19.1
     "@divopsor/frontend-configs-cli": "workspace:^"
-    "@emotion/babel-plugin": ^11.10.2
-    "@emotion/react": ^11.10.4
     "@types/babel__core": ^7
     "@types/eslint": ^8
     "@types/node": 18.7.18
@@ -438,8 +446,6 @@ __metadata:
   dependencies:
     "@babel/core": ^7.19.1
     "@divopsor/frontend-configs-cli": "workspace:^"
-    "@emotion/babel-plugin": ^11.10.2
-    "@emotion/react": ^11.10.4
     "@types/babel__core": ^7
     "@types/eslint": ^8
     "@types/node": 18.7.18
