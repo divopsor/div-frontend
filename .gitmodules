@@ -19,3 +19,6 @@
 [submodule "blog.creco.dev/post"]
 	path = blog.creco.dev/post
 	url = git@divopsor:divopsor/blog.creco.dev-post.git
+[submodule "blog.creco.dev/ps"]
+	path = blog.creco.dev/ps
+	url = git@divopsor:divopsor/blog.creco.dev-ps.git
