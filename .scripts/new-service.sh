@@ -82,11 +82,8 @@ git update-ref -d HEAD || exit 1
 
 echo "✅ REPO commits 리셋 완료"
 
-case $domain in "div.homes")
-  cp ../../.template/deploy-$domain.yml ./.github/workflows/deploy.yml
-  ../../.scripts/replace.sh ./.github/workflows/deploy.yml "[service]" $serviceName || exit 1
-  ;;
-esac
+../../.scripts/replace.sh ./.github/workflows/deploy.yml "hello-world" $serviceName || exit 1
+../../.scripts/replace.sh ./.github/workflows/deploy.yml "div.homes" $domain || exit 1
 
 yarn || exit 1
 
