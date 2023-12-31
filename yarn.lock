@@ -256,9 +256,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@divops-packages/blog-creco-dev@npm:^0.4.31":
-  version: 0.4.31
-  resolution: "@divops-packages/blog-creco-dev@npm:0.4.31"
+"@divops-packages/blog-creco-dev@npm:^0.4.33":
+  version: 0.4.33
+  resolution: "@divops-packages/blog-creco-dev@npm:0.4.33"
   dependencies:
     axios: ^1.6.3
     eslint: 8.44.0
@@ -268,7 +268,7 @@ __metadata:
     typescript: ^4.9.5
   peerDependencies:
     "@tanstack/react-query": ^4
-  checksum: 5975afe40e7f6f1d72fabe12358cf85e3b5d160159d36af9c46ff344c5e25b0f801d550617d1e997e4704fe0d367bf4617ec77d85a602253b56929f2cdf9c354
+  checksum: 0713edac7d4c36559356b57a529d17f45a39f4d77e2aa7b56ffcd42ad5167e011eaac6c7433f1cb0f672cfc2e2063fc4e60a30c51b6ab3c0da01453219312948
   languageName: node
   linkType: hard
 
@@ -325,7 +325,7 @@ __metadata:
   resolution: "@divopsor/blog.creco.dev-doodle@workspace:blog.creco.dev/doodle"
   dependencies:
     "@babel/core": ^7.19.1
-    "@divops-packages/blog-creco-dev": ^0.4.31
+    "@divops-packages/blog-creco-dev": ^0.4.33
     "@divops-packages/ui": ^0.4.0
     "@tanstack/react-query": ^4.32.6
     "@types/babel__core": ^7
@@ -351,7 +351,7 @@ __metadata:
   resolution: "@divopsor/blog.creco.dev-post@workspace:blog.creco.dev/post"
   dependencies:
     "@babel/core": ^7.19.1
-    "@divops-packages/blog-creco-dev": ^0.4.31
+    "@divops-packages/blog-creco-dev": ^0.4.33
     "@divops-packages/ui": ^0.4.0
     "@tanstack/react-query": ^4.32.6
     "@types/babel__core": ^7
@@ -377,7 +377,7 @@ __metadata:
   resolution: "@divopsor/blog.creco.dev-ps@workspace:blog.creco.dev/ps"
   dependencies:
     "@babel/core": ^7.19.1
-    "@divops-packages/blog-creco-dev": ^0.4.31
+    "@divops-packages/blog-creco-dev": ^0.4.33
     "@divops-packages/ui": ^0.4.0
     "@tanstack/react-query": ^4.32.6
     "@types/babel__core": ^7
