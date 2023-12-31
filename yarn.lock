@@ -256,9 +256,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@divops-packages/blog-creco-dev@npm:^0.4.17":
-  version: 0.4.17
-  resolution: "@divops-packages/blog-creco-dev@npm:0.4.17"
+"@divops-packages/blog-creco-dev@npm:^0.4.21":
+  version: 0.4.21
+  resolution: "@divops-packages/blog-creco-dev@npm:0.4.21"
   dependencies:
     axios: ^1.6.3
     eslint: 8.44.0
@@ -268,7 +268,7 @@ __metadata:
     typescript: ^4.9.5
   peerDependencies:
     "@tanstack/react-query": ^4
-  checksum: 44cb9e6ad188b7cf142a4a40d069a778ace5722fdb03b377491827cd1038e95ad37f1ead978ea7eeab5ff4bcf209c7881eb2d6328aa841ba4d53fb315f8c5a41
+  checksum: d3175e58cd71836dabd7ff58255a046c5d2f50145819c9d45da324c7d9fba2904e4b013aae47c2a580a1b422d8bc8d2c1785a49b89096ac59a16d5e79e71cf25
   languageName: node
   linkType: hard
 
@@ -320,12 +320,34 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@divopsor/blog.creco.dev-doodle@workspace:blog.creco.dev/doodle":
+  version: 0.0.0-use.local
+  resolution: "@divopsor/blog.creco.dev-doodle@workspace:blog.creco.dev/doodle"
+  dependencies:
+    "@babel/core": ^7.19.1
+    "@types/babel__core": ^7
+    "@types/eslint": ^8
+    "@types/node": 18.7.18
+    "@types/react": 18.0.21
+    "@types/react-dom": 18.0.6
+    "@typescript-eslint/eslint-plugin": ^5.36.2
+    "@typescript-eslint/parser": ^5.36.2
+    eslint: 8.23.1
+    eslint-config-next: 12.3.1
+    eslint-plugin-import: ^2.26.0
+    next: 12.3.1
+    react: 18.2.0
+    react-dom: 18.2.0
+    typescript: 4.8.3
+  languageName: unknown
+  linkType: soft
+
 "@divopsor/blog.creco.dev-post@workspace:blog.creco.dev/post":
   version: 0.0.0-use.local
   resolution: "@divopsor/blog.creco.dev-post@workspace:blog.creco.dev/post"
   dependencies:
     "@babel/core": ^7.19.1
-    "@divops-packages/blog-creco-dev": ^0.4.17
+    "@divops-packages/blog-creco-dev": ^0.4.21
     "@divops-packages/ui": ^0.4.0
     "@tanstack/react-query": ^4.32.6
     "@types/babel__core": ^7
@@ -351,6 +373,7 @@ __metadata:
   resolution: "@divopsor/blog.creco.dev-ps@workspace:blog.creco.dev/ps"
   dependencies:
     "@babel/core": ^7.19.1
+    "@divops-packages/blog-creco-dev": ^0.4.21
     "@divops-packages/ui": ^0.4.0
     "@tanstack/react-query": ^4.32.6
     "@types/babel__core": ^7

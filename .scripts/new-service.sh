@@ -13,8 +13,8 @@ else
   exit 1
 fi
 
-if [ -z "$CRECO_STORAGE_PAT" ]; then
-  echo "CRECO_STORAGE_PAT is empty"
+if [ -z "$CRECO_STORAGE" ]; then
+  echo "CRECO_STORAGE is empty"
   exit 1
 fi
 

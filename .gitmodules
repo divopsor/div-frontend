@@ -22,3 +22,6 @@
 [submodule "blog.creco.dev/ps"]
 	path = blog.creco.dev/ps
 	url = git@divopsor:divopsor/blog.creco.dev-ps.git
+[submodule "blog.creco.dev/doodle"]
+	path = blog.creco.dev/doodle
+	url = git@divopsor:divopsor/blog.creco.dev-doodle.git
