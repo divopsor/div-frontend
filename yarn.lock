@@ -351,6 +351,8 @@ __metadata:
   resolution: "@divopsor/blog.creco.dev-main@workspace:blog.creco.dev/main"
   dependencies:
     "@babel/core": ^7.19.1
+    "@divops-packages/blog-creco-dev": ^0.4.33
+    "@tanstack/react-query": ^4.32.6
     "@types/babel__core": ^7
     "@types/eslint": ^8
     "@types/node": ^18
