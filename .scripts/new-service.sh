@@ -100,7 +100,7 @@ git commit -m "initial commit [skip vercel] [skip ci]" || exit 1
 git push origin main -f || exit 1
 
 gh secret set PAT --body $PAT
-gh secret set CRECO_STORAGE --body $CRECO_STORAGE_PAT
+gh secret set CRECO_STORAGE --body $CRECO_STORAGE
 
 echo "✅ REPO initial 완료"
 
