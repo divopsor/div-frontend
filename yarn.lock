@@ -339,7 +339,6 @@ __metadata:
     eslint: 8.23.1
     eslint-config-next: ^13.4.13
     eslint-plugin-import: ^2.26.0
-    husky: ^8.0.1
     next: ^13
     react: ^18
     react-dom: ^18
@@ -365,7 +364,6 @@ __metadata:
     eslint: 8.23.1
     eslint-config-next: ^13.4.13
     eslint-plugin-import: ^2.26.0
-    husky: ^8.0.1
     next: ^13
     react: ^18
     react-dom: ^18
@@ -390,7 +388,6 @@ __metadata:
     eslint: 8.23.1
     eslint-config-next: 12.3.1
     eslint-plugin-import: ^2.26.0
-    husky: ^8.0.1
     next: 12.3.1
     react: 18.2.0
     react-dom: 18.2.0
@@ -416,7 +413,6 @@ __metadata:
     eslint: 8.23.1
     eslint-config-next: ^13.4.13
     eslint-plugin-import: ^2.26.0
-    husky: ^8.0.1
     next: ^13
     react: ^18
     react-dom: ^18
@@ -448,7 +444,6 @@ __metadata:
     eslint-config-next: 12.3.1
     eslint-plugin-import: ^2.26.0
     hooks: "link:./src/hooks"
-    husky: ^8.0.1
     next: 12.3.1
     react: 18.2.0
     react-dom: 18.2.0
@@ -472,7 +467,6 @@ __metadata:
     eslint: 8.23.1
     eslint-config-next: 12.3.1
     eslint-plugin-import: ^2.26.0
-    husky: ^8.0.1
     next: 12.3.1
     react: 18.2.0
     react-dom: 18.2.0
@@ -495,7 +489,6 @@ __metadata:
     eslint: 8.23.1
     eslint-config-next: 12.3.1
     eslint-plugin-import: ^2.26.0
-    husky: ^8.0.1
     next: 12.3.1
     react: 18.2.0
     react-dom: 18.2.0
@@ -2904,15 +2897,6 @@ __metadata:
   version: 2.1.0
   resolution: "human-signals@npm:2.1.0"
   checksum: b87fd89fce72391625271454e70f67fe405277415b48bcc0117ca73d31fa23a4241787afdc8d67f5a116cf37258c052f59ea82daffa72364d61351423848e3b8
-  languageName: node
-  linkType: hard
-
-"husky@npm:^8.0.1":
-  version: 8.0.3
-  resolution: "husky@npm:8.0.3"
-  bin:
-    husky: lib/bin.js
-  checksum: 837bc7e4413e58c1f2946d38fb050f5d7324c6f16b0fd66411ffce5703b294bd21429e8ba58711cd331951ee86ed529c5be4f76805959ff668a337dbfa82a1b0
   languageName: node
   linkType: hard
 
