@@ -28,3 +28,6 @@
 [submodule "blog.creco.dev/main"]
 	path = blog.creco.dev/main
 	url = git@divopsor:divopsor/blog.creco.dev-main.git
+[submodule "blog.creco.dev/coffee-chat"]
+	path = blog.creco.dev/coffee-chat
+	url = git@divopsor:divopsor/blog.creco.dev-coffee-chat.git

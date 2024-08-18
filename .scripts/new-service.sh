@@ -44,7 +44,7 @@ read serviceName
 if gh repo list | grep -q "$user/$domain-$serviceName"; then
   echo "✅ REPO가 이미 존재합니다."
 else
-  gh repo create --public --add-readme $user/$domain-$serviceName || exit 1
+  gh repo create --public --add-readme $user/$domain-$serviceName || "✅ REPO 이미 있음"
   echo "✅ REPO create 완료"
 fi
 
